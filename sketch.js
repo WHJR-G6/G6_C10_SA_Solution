@@ -10,6 +10,7 @@ function preload(){
 function setup() {
   createCanvas(500, 500);
   player = createSprite(250,300,20,50);
+   player.addImage("player",player_image)
 
   platform = createSprite(250,350,100,10);
   platform.addImage("platform", platform_image)
